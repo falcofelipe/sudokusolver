@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <title>Sudoku Solver</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-lightorange">
+      <div class="container">
+        <a class="navbar-brand" href="#">Sudoku Solver</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="container">
+        <div class="card mt-5 mb-4 mx-auto bg-lightorange">
+          <div class="card-body px-5 py-4">
+            <h2 class="text-dark">About</h2>
+            <br />
+            <p>
+              Sudoku Solver is a simple web application built with Javascript,
+              HTML5, CSS3 and Bootstrap 4. It's able to fetch sudoku boards from
+              a third party API (<a
+                class="text-darkorange"
+                href="https://github.com/bertoort/sugoku"
+                >Sugoku</a
+              >) and solve them using custom-made backtracking algorithms.
+            </p>
+            <p>
+              It was made by
+              <a
+                class="text-darkorange"
+                href="https://www.falcofelipe.com"
+                target="_blank"
+                >Felipe Falco</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5 p-3 w-100 text-center bg-lightorange">
+      Sudoku Solver &copy; by
+      <a class="text-dark" href="https://www.falcofelipe.com" target="_blank"
+        ><em>Felipe Falco</em></a
+      >
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

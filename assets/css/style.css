@@ -1,0 +1,113 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 239, 231) !important;
+}
+
+.main {
+  min-height: calc(100% - 210px);
+}
+
+.grid-container {
+  width: 360px;
+  margin: auto;
+}
+
+td {
+  width: 41px !important;
+  height: 41px !important;
+  vertical-align: middle !important;
+  padding: 0 !important;
+}
+
+.text-darkorange {
+  color: rgb(211, 77, 0) !important;
+}
+
+/* NAVBAR */
+.bg-lightorange {
+  background-color: rgb(255, 219, 198) !important;
+}
+
+/* CARD */
+select {
+  background-color: rgb(255, 239, 231) !important;
+}
+
+.main-card {
+  max-width: 600px;
+}
+
+.main-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.btn-orange {
+  background-color: rgb(255, 155, 97) !important;
+}
+
+.btn-w-160 {
+  min-width: 160px !important;
+}
+
+.border-end-3 {
+  border-right-width: 4px !important;
+}
+
+.border-bottom-3 {
+  border-bottom-width: 4px !important;
+}
+
+.border-4 {
+  border-width: 4px !important;
+}
+
+.table-bordered td {
+  border-color: #343a40 !important;
+}
+
+/* FOOTER */
+.bg-verylightorange {
+  background-color: rgb(255, 239, 231) !important;
+}
+
+@media only screen and (max-width: 560px) {
+  .grid-container {
+    width: 100%;
+  }
+  .card-body {
+    width: 100%;
+  }
+
+  td {
+    font-size: 0.8em;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 353px) {
+  td,
+  td * {
+    max-height: 25px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  tr,
+  tr *,
+  tbody,
+  tbody * {
+    max-height: 25px !important;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .btn {
+    margin-bottom: 0.5rem;
+    width: 75%;
+  }
+}
