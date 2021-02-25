@@ -64,7 +64,9 @@ select {
   border-width: 4px !important;
 }
 
-.table-bordered td {
+.table-bordered td,
+tr,
+tbody {
   border-color: #343a40 !important;
 }
 
